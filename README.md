@@ -37,7 +37,7 @@
 | 顧客観点 | デシル分析 |  |  |
 |  | RFM分析 |  |  |
 |  | クラスタリング・セグメンテーション |  |  |
-| 商品観点 | ABC分析 | POSデータの |  |
+| 商品観点 | ABC分析 |商品別の売り上げを比較し、売り上げ上位からA, B, Cの3つのグループに分ける。品揃えや商品の入れ替え・在庫管理などに利用される |  |
 |  | リピート率 |  |  |
 |  | バスケット分析 |  |  |
 |  | 購買順分析 |  |  |
@@ -45,6 +45,8 @@
 ## 利用するデータ
 
 購買データでいいサンプルがなかったのですが、[こちら](https://www.kyoritsu-pub.co.jp/book/b10003634.html)の本のデータがよさそうだったので、使ってみましょう。
+
+データ確認については、[こちら](https://github.com/karasu1982/POS_Data_Analytics/blob/main/DataVisualization.ipynb)にコードを載せていますので、併せてご確認ください。
 
 まずは、データを読み込ませて、そのまま見てみましょう。
 
@@ -92,7 +94,7 @@ Amount別の件数を見てみましょう。ただし、上述のようにAmoun
 
 圧倒的に、1個か2個購入するケースが多いことが、グラフからもわかりますね。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3e6b31c-e1df-4afb-bf74-f74c580bce9a/Untitled.png)
+![image](https://github.com/karasu1982/POS_Data_Analytics/assets/22285502/78b1918a-a17e-4601-8853-229eff986743)
 
 【棒グラフ】
 
@@ -100,7 +102,8 @@ Amount別の件数を見てみましょう。ただし、上述のようにAmoun
 
 エリアG（どこか知りませんが）の平均単価が頭一つ高いですね。高級品を買ってくれやすいエリアなのでしょうか。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35da7807-519f-4254-8502-3ee918a18b36/Untitled.png)
+![image](https://github.com/karasu1982/POS_Data_Analytics/assets/22285502/994e2041-8780-4e50-960a-31c8bcaceb6b)
+
 
 【散布図】
 
@@ -108,19 +111,22 @@ SalesPriceとAmountで散布図をつくっています。かつ、ポイント�
 
 ちょっとこれだけだと、わかりづらいですね。AmountとSalesPriceは、基本相関が高いわけではないので、こんなもんでしょうか。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a4fb7e1-b07a-4dc0-85b5-0151f1431875/Untitled.png)
+![image](https://github.com/karasu1982/POS_Data_Analytics/assets/22285502/2ae034c5-8927-46bc-b4cb-09e8bea4580f)
+
 
 【箱ひげ図】
 
 Amountについての箱ひげ図を、Age別に作成しています。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a876aec-7c8b-44c0-baf7-03854b681244/Untitled.png)
+![image](https://github.com/karasu1982/POS_Data_Analytics/assets/22285502/599921e5-a68b-4418-a934-f3288b7de150)
+
 
 ただ、これだと、ちょっと外れ値が多すぎるので、Amountが200以下に絞ってみましょう。
 
 すると、平均値はほぼ同程度のようですが、A, G, H, I ,Kが上に突き抜けているケースが少ないですね。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/302fd41a-73da-4ab8-8329-29880d579daa/Untitled.png)
+![image](https://github.com/karasu1982/POS_Data_Analytics/assets/22285502/8bfe759e-0bf0-44eb-99d4-9e58601c61dc)
+
 
 ただ、これでも数件の外れ値なので、実際には25以下とかに絞るといいかもしれませんね。
 
@@ -129,3 +135,6 @@ Amountについての箱ひげ図を、Age別に作成しています。
 数値同士の相関係数を可視化するヒートマップです。
 
 数値項目がすくないため、SalesPriceとAssetがほぼ1.0で、SalesPriceとAmountが0.44というくらいで、情報量は少ないですが、項目が多くなると重要な見える化になります。
+
+![image](https://github.com/karasu1982/POS_Data_Analytics/assets/22285502/22fed27f-517c-46b0-9d21-7320d96e6fcc)
+
