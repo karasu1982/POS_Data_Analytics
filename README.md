@@ -33,12 +33,12 @@
 | 種別 | 分析メニュー | 分析内容 | 集計・分析プログラム |
 | --- | --- | --- | --- |
 | 全般 | 売上分解分析 |  |  |
-|  | 時系列分析 |データを時系列での推移をみていく分析です。売上や株価など、時間軸で変わっていくものの変化を確認するために用いられます。  |[時系列分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/%E6%99%82%E7%B3%BB%E5%88%97%E5%88%86%E6%9E%90.ipynb) |
-| 顧客観点 | デシル分析 |顧客の一定期間の購買金額に基づいてグループ分けする手法の１つで、購買金額が最も多いグループから最も少ないグループまで、人数が（ほぼ）同じになるように10個に分ける。  |[デシル分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/%E3%83%87%E3%82%B7%E3%83%AB%E5%88%86%E6%9E%90.ipynb) |
-|  | RFM分析 |  |  |
+|  | 時系列分析 |データを時系列での推移をみていく分析です。売上や株価など、時間軸で変わっていくものの変化を確認するために用いられます。  |[時系列分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E6%99%82%E7%B3%BB%E5%88%97%E5%88%86%E6%9E%90.ipynb) |
+| 顧客観点 | デシル分析 |顧客の一定期間の購買金額に基づいてグループ分けする手法の１つで、購買金額が最も多いグループから最も少ないグループまで、人数が（ほぼ）同じになるように10個に分ける。  |[デシル分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E3%83%87%E3%82%B7%E3%83%AB%E5%88%86%E6%9E%90.ipynb) |
+|  | RFM分析 |顧客の最新購入日(R)、購入頻度(F)、購入金額(M)の3つの軸でグループ分けする  |[RFM分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/RFM%E5%88%86%E6%9E%90.ipynb)  |
 |  | クラスタリング・セグメンテーション |  |  |
-| 商品観点 | ABC分析 |商品別の売り上げを比較し、売り上げ上位からA, B, Cの3つのグループに分ける。品揃えや商品の入れ替え・在庫管理などに利用される | [ABC分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/ABC%E5%88%86%E6%9E%90.ipynb) |
-|  | リピート率 |商品別のリピート率（特定の期間内に同じ人に複数回購入される確率）を比較する  |[リピート率](https://github.com/karasu1982/POS_Data_Analytics/blob/main/%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E7%8E%87.ipynb) |
+| 商品観点 | ABC分析 |商品別の売り上げを比較し、売り上げ上位からA, B, Cの3つのグループに分ける。品揃えや商品の入れ替え・在庫管理などに利用される | [ABC分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/ABC%E5%88%86%E6%9E%90.ipynb) |
+|  | リピート率 |商品別のリピート率（特定の期間内に同じ人に複数回購入される確率）を比較する  |[リピート率](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E7%8E%87.ipynb) |
 |  | バスケット分析 |  |  |
 |  | 購買順分析 |  |  |
 
