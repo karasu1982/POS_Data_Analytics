@@ -41,7 +41,7 @@
 | 商品観点 | ABC分析 |商品別の売り上げを比較し、売り上げ上位からA, B, Cの3つのグループに分ける。品揃えや商品の入れ替え・在庫管理などに利用される | [ABC分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/ABC%E5%88%86%E6%9E%90.ipynb) |
 |  | リピート率 |商品別のリピート率（特定の期間内に同じ人に複数回購入される確率）を比較する  |[リピート率](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E7%8E%87.ipynb) |
 |  | バスケット分析 |商品同士が同時購入される確率から、ある商品の購入者にお勧めする商品を検討する  |[バスケット分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E3%83%90%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E5%88%86%E6%9E%90.ipynb)  |
-|  | 購買順分析 |  |  |
+|  | 購買順分析 |、バスケット分析の応用で、商品Aを買う前に何を買っていたか、買った後に何を買ったかを分析する  |[購買順分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E8%B3%BC%E8%B2%B7%E9%A0%86%E5%88%86%E6%9E%90.ipynb)  |
 
 ※ 集計・分析プログラムについての注意点
 
