@@ -34,7 +34,7 @@
 
 | 種別 | 分析メニュー | 分析内容 | 集計・分析プログラム |
 | --- | --- | --- | --- |
-| 全般 | 売上分解分析 |  |  |
+| 全般 | 売上分解分析 |企業や店舗全体の売上がどの様な構成になっていて、何が要因で上昇・下降しているのかを把握するための第一歩となる分析です。  |[売上分解分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E5%A3%B2%E4%B8%8A%E5%88%86%E8%A7%A3%E3%83%84%E3%83%AA%E3%83%BC.ipynb)  |
 |  | 時系列分析 |データを時系列での推移をみていく分析です。売上や株価など、時間軸で変わっていくものの変化を確認するために用いられます。  |[時系列分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E6%99%82%E7%B3%BB%E5%88%97%E5%88%86%E6%9E%90.ipynb) |
 | 顧客観点 | デシル分析 |顧客の一定期間の購買金額に基づいてグループ分けする手法の１つで、購買金額が最も多いグループから最も少ないグループまで、人数が（ほぼ）同じになるように10個に分ける。  |[デシル分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/%E3%83%87%E3%82%B7%E3%83%AB%E5%88%86%E6%9E%90.ipynb) |
 |  | RFM分析 |顧客の最新購入日(R)、購入頻度(F)、購入金額(M)の3つの軸でグループ分けする  |[RFM分析](https://github.com/karasu1982/POS_Data_Analytics/blob/main/notebook/RFM%E5%88%86%E6%9E%90.ipynb)  |
